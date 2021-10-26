@@ -1,0 +1,187 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    /*font-size: 15pt;*/
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.25rem;
+    background-color: #fdfdff;
+    color: #393d3f;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 960px) {
+ .container {
+    max-width: 960px;
+ }
+} 
+
+header {
+  margin: 1rem auto 1rem;
+  text-align: center;
+}
+
+.logo {
+  max-width: 75%;
+  height: auto;
+}
+
+.hero {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding: 0;
+  background-color: #efefef;
+  background-size: cover;
+  background-image: linear-gradient(0deg, #00000088 10%, #ffffff00 100%), url("../images/hero-bg.jpg");
+}
+
+@media screen and (min-width: 768px) {
+  hero {
+    height: calc((100vw - 20px) * 0.5625);
+  }
+}
+
+.hero h1 {
+  position: absolute;
+  bottom:.5em;
+  left:.5em;
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #fdfdff;
+}
+
+h1, 
+h2, 
+h3 {
+  text-transform: uppercase;
+  letter-spacing:.075em;
+  margin-bottom: 1rem;
+}
+
+/*h1 {
+  font-size: 2.25rem;
+}*/
+
+p {
+  line-height: 2rem;
+}
+
+a {
+  color: #62929e;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-section {
+  margin-top: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.75rem;
+  background-color: #62929e;
+  color: #fdfdff;
+}
+
+.contact-details {
+  line-height: 2.25rem; 
+  list-style-type: none; 
+}
+
+.contact-details li {
+  margin-left: -2.5rem; 
+  margin-bottom: 1.25rem;
+}
+
+.icon-holder {
+  margin-right:.5em;
+  border: 2px solid currentColor;
+  padding: .35em .55em;
+  border-radius: 50%;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #fdfdff;
+}
+
+.newsletter {
+  padding-top: 1.25rem;
+  padding-bottom: 1.5rem;
+  background-color: #efefef;
+}
+
+.newsletter form {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.newsletter label {
+  display: block;
+  margin-bottom:.25em;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.newsletter input[type="email" ] {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: .5em;
+  border: 1px solid #d2d2e2;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  color: #393d3f;
+}
+
+.newsletter button {
+  width: 100%;
+  padding: .5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  background-color: #62929e;
+  color: #fdfdff;
+  text-transform: uppercase;
+  letter-spacing:.125em;
+}
+
+.newsletter span {
+  display: block;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: .75rem;
+}
+
+footer {
+  margin-top: auto;
+  padding: 2.5rem 1.5rem;
+  background-color: #393d3f;
+  color: #fdfdff;
+  font-size: 1rem;
+}
+
+footer span {
+  font-size: .75rem;
+}
+
+address {
+  font-style: normal;
+}
