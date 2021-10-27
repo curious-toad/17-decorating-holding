@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0 2.5rem;
   padding: 1.5rem;
 }
 
@@ -71,8 +71,11 @@ header {
 @media screen and (min-width: 1080px) {
   hero {
     /*height: calc((100vw - 20px) * 0.5625);*/
-    height: 40rem;
+    height: 50rem;
   }
+ hero h1 {
+   bottom: 1.5em;
+   left: 1.5em;
 }
 
 .hero h1 {
@@ -193,6 +196,18 @@ background-repeat: no-repeat;
   font-size: 1.25rem;
   color: #393d3f;
 }
+  
+.newsletter button {
+  width: 100%;
+  padding: .5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  background-color: #62929e;
+  color: #fdfdff;
+  text-transform: uppercase;
+  letter-spacing:.125em;
+}
 
 @media screen and (min-width: 960px) {
   .newsletter input[type="email" ] {
@@ -211,20 +226,9 @@ background-repeat: no-repeat;
    clear: both;
  }
 }
-
-.newsletter button {
-  width: 100%;
-  padding: .5em;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.25rem;
-  background-color: #62929e;
-  color: #fdfdff;
-  text-transform: uppercase;
-  letter-spacing:.125em;
-}
-
+  
 .newsletter-notice {
+  clear: both;
   margin-top: 2.5rem;
   margin-bottom: 1.5rem;
   font-size: .75rem;
