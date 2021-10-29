@@ -88,7 +88,7 @@ header a {
 @media screen and (min-width: 1080px) {
   .hero {
     /*height: calc((100vw - 20px) * 0.5625);*/
-    height: 50rem;
+    height: 40rem;
   }
  hero h1 {
    bottom: 1.5em;
