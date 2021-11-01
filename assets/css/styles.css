@@ -70,8 +70,8 @@ header a {
 
 .hero h1 {
   position: absolute;
-  bottom:.5em;
-  left:.5em;
+  bottom:.75em;
+  left:.75em;
   margin: 0;
   font-size: 2rem;
   line-height: 2rem;
