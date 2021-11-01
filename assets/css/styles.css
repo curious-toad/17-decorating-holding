@@ -65,7 +65,7 @@ header a {
   padding: 0;
   background-color: #efefef;
   background-size: cover;
-  background-image: linear-gradient(0deg, #00000088 10%, #ffffff00 100%), url("../images/hero-bg.jpg");
+  background-image: linear-gradient(0deg, #00000088 10%, #ffffff00 100%), url("../images/pexels-blue-bird-7218525.jpg");
 }
 
 .hero h1 {
@@ -82,6 +82,7 @@ header a {
   .hero {
     /*height: calc((100vw - 20px) * 0.5625);*/
     height: 30rem;
+    background-position-y: 0;
   }
 }
 
