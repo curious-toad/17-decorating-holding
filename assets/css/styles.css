@@ -205,7 +205,8 @@ background-repeat: no-repeat;
   color: #393d3f;
 }
   
-.newsletter button {
+.newsletter button, 
+.newsletter input[type="submit"] {
   width: 100%;
   padding:.625em;
   border: none;
